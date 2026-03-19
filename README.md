@@ -18,18 +18,6 @@ The pipeline is modular and designed for clarity, extensibility, and experimenta
 - Trajectory visualization (Ground Truth vs Estimated)
 - Depth-based visualization on images
 
-## Project Structure
-proj2_stereoVO/
-│
-├── data/                # Dataset loading and calibration
-├── features/            # ORB detection and matching
-├── stereo/              # Depth and 3D reconstruction
-├── vo/                  # Main VO pipeline
-├── visualization/       # Plotting and debug utilities
-│
-├── main.py              # Entry point
-├── requirements.txt
-└── README.md
 
 ## Pipeline Overview
 1. Load stereo images  
