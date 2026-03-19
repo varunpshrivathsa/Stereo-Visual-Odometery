@@ -44,10 +44,13 @@ The pipeline is modular and designed for clarity, extensibility, and experimenta
 
 ## How to Run
 git clone https://github.com/varunpshrivathsa/Stereo-Visual-Odometery.git  
-cd Stereo-Visual-Odometery  
 
-pip install -r requirements.txt  
-python main.py  
+
+```bash
+python main.py \
+  --sequence <sequence_id> \
+  --dataset_root <path_to_dataset> \
+  --gt_root <path_to_ground_truth>
 
 ## Dataset
 The project uses stereo image sequences along with calibration data. Ensure the dataset is placed correctly inside the data/ directory and follows the expected structure.
